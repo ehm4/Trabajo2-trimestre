@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--favicon-->
+  <link rel="shortcut icon" href="./imagenes/logo.ico" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ÑamÑam</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--NAVBAR-->
+  <section id="wrapper">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-azulillo bg-light text-primary">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#"><img class = "logo" src="./imagenes/logo.png" width="40"></a>
+
+            <!--icono hamburguesa-->
+            <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--lista de botones dentro de un div-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item m-left">
+                        <a class="nav-link" href="#introduccion">Introducción</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#historia">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carta">Carta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#ubicacion">Ubicación</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+    </nav>
+</head>
+<body>
+  <!--Hero section-->
+  <div id="introduccion" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#introduccion" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#introduccion" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#introduccion" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagenes/bocadillo2-6942x3596.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bocadillos</h5>
+          <p>Algo típico con rasgos nuevos.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/hamburguesa1-6942x3596.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Hamburguesas</h5>
+          <p>Una de las especialidades de la casa.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./imagenes/japo2.2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Japo</h5>
+          <p>Un toque asiático, con esencia de aquí. </p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#introduccion" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#introduccion" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--Fin Hero section (carousel)-->
+  <!--Historia-->
+  <section class="py-5 bg-primary text-warning" id="historia"> 
+
+    <div class="container-sm"><br>Esta historia empieza en 1998, cuando abrimos la cafetería del IES Nuevo Scala, donde dejamos huella.<br>
+      
+      <br>Nuestros bocadillos han saciado el hambre de miles de alumnos durante los recreos, esto nos ha creado una muy buena imagen por nuestro territorio. <br>
+      
+      <br>En 2020 abrimos Ñam Ñam, para poder ofrecer una cena buena y barata.<br>
+      
+      <br>Hoy en día seguimos queriendo hacer disfrutar a la gente con bocadillos, hamburguesas, hot dogs, patatas...<br>
+      
+      <br>Eso si, nada de lo que ofrecemos es lo típico que puedes encontrar.<br>
+      
+      <br>Tenemos bocadillos estilo japonés, con patatas fritas, pollo sabor burrito...<br>
+      <br>¡Atrévete a vivir nuevas experiencias gastronómicas de nuestra mano y ven a visitarnos!<br>
+    </div>
+    
+  </section>
+  <!--Fin historia-->
+  <!--Carta-->
+  <div class="container py-5" id="carta">
+
+    <p>
+      <a class="btn btn-primary bg-primary text-warning text-center " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Bocadillos</a>
+      <a class="btn btn-primary bg-primary text-warning text-center " data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3">Japo</a>
+      <button class="btn btn-primary bg-primary text-warning text-center " type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Hamburguesas</button>
+    </p>
+  <div class="row">
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+          <br>Polloferia: Pechuga de pollo aliñada, queso Edam & patatas Chips.<br>
+          <br>Kentucky: Pollo rebozado, queso gratinado y bacon picado.<br>
+          <br>Pendejo: Lomo aliñado, nachos y salsa Cheddar.<br>
+          <br>D'Eso: Tortilla francesa, queso Edam & jamón York.<br>
+          <br>El Puntito: Tiras de lomo punto picante, mozzarella y cebolla crujiente.<br>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample3">
+        <div class="card card-body">
+          <br>-Nuestras versiones del Katsu Sando (Sándwich Japones). Cerdo marinado, envuelto en un crujiente rebozado, panecillo brioche y virutas de bacon.-<br>
+          <br>Os ofrecemos dos opciones a elegir.<br>
+          <br>Manga: Salsa <br>
+          <br>D'Eso: Tortilla francesa, queso Edam & jamón York.<br>
+          <br>El Puntito: Tiras de lomo punto picante, mozzarella y cebolla crujiente.<br>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+          <br>Illo: 150 gr. vacuno del Valle de los Pedroches, queso Cheddar, magreta, huevo a la plancha, cebolla crujiente, lechuga mezclum y salsa Burguer.<br>
+          <br>La Crispy: Pollo crujiente, mix de lechugas, bacon, queso y salsa Smokey bacon. Guarnición de patatas especiadas.<br>
+          <br>KLN: Doble hamburguesa vacuno del Valle de los Pedroches (300 gr. en total), doble de Cheddar, doble de bacon, cebolla crujiente, mix de lechugas y salsa Chilli BBQ. Guarnición de patatas especiadas con salsa Deluxe.<br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--Fin galería (collapse)-->
+<!--Galeria con cards-->
+<section class="bg-primary" id="galeria">
+  <div class="container py-5">
+    <h3 class="text-center py-2 text-warning">Galería</h3>
+    <div class="row py-3">
+      <div class="col-xxl-3 col-xl-6 col-md-6 col-sm-12 py-3">
+        <div class="card">
+          <img src="imagenes/imagenvirutas.jpeg" class="card-img-top" alt="viruta">
+          <div class="card-body">
+            <h4 class="card-title">Hot Dog Virutas</h4>
+            <p class="card-text">Queso, virutas de bacon, salsa Smokey Bacon y cebolla crujiente</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-6 col-md-6 col-sm-12 py-3">
+        <div class="card">
+          <img src="imagenes/imagensandwich3.jpeg" class="card-img-top" alt="sandwich">
+          <div class="card-body">
+            <h4 class="card-title">Huevos & Bacon</h4>
+            <p class="card-text">Bacon, huevos plancha, cebolla crujiente, salsa Smokey Bacon</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-6 col-md-6 col-sm-12 py-3">
+        <div class="card">
+          <img src="imagenes/imagenhotdog2.jpeg" class="card-img-top" alt="hotdog">
+          <div class="card-body">
+            <h4 class="card-title">Hot Dog Pulled</h4>
+            <p class="card-text">Pulled pork, mayonesa de Kimchi y sésamo negro</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-xxl-3 col-xl-6 col-md-6 col-sm-12 py-3">
+        <div class="card">
+          <img src="imagenes/imagenpuntito.jpeg" class="card-img-top" alt="puntito">
+          <div class="card-body">
+            <h4 class="card-title">Puntito</h4>
+            <p class="card-text">Tiras de lomo picante, mozzarella y cebolla crujiente</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Fin Galería-->
+<!--Fuera de carta-->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Torreznos</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Bocadillos de torreznos de Soria.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Siguiente</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Ñam Ñam</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Patatas gajo, queso gratinado y solomillo de pollo rebozado.
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Volver</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Final fuera de carta (modal)-->
+
+<!--Inicio barra de proceso-->
+<a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Fuera de carta</a>
+
+<h2 class="text-center">Proceso siguiente bocadillo:</h2>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<!--Final barra de proceso (progess)-->
+<!------------------Ubicación----------------------------------------->
+<section class="bg-light" id="ubicacion">
+  <div class="container py-5">
+    <h2 class="text-center">Ubicación</h2>
+    <div class="row py-2 align-items-center">
+      <div class="col-lg-9 col-md-12 py-3">
+
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="350" id="gmap_canvas" src="https://maps.google.com/maps?q=Calle%20Granada,%20Rute,%2038&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:350px;width:100%;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:100%;}</style></div></div>
+
+      <div class="col-lg-3 col-md-12 py-3">
+        <h4>Horario: 20:00 - 00:00</h4>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Día</th>
+              <th scope="col">Abierto</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Lunes</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Martes</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Miercoles</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th scope="row">Jueves</th>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Viernes</th>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Sábado</th>
+              <td>X</td>
+            </tr>
+            <tr>
+              <th scope="row">Domingo</th>
+              <td>X</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+<!------------------Fin Ubicación----------------------------------------->
+<!------------------Footer----------------------------------------->
+<section class="bg-primary" id="contacto">
+  <div class="container py-5">
+    <div class="row py-3">
+      <div class="col-xl-3 col-md-12 py-3">
+        <h4 class="text-center text-dark">Ñam Ñam Rute</h4>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" ><i class="fa fa-map-marker" aria-hidden="true"></i> Dirección: Calle Granada 43, Rute (Córdoba)</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://www.facebook.com/pages/category/Local-service/%C3%91am-%C3%91am-Rute-105087317932706/"><i class="fa fa-envelope-o" aria-hidden="true"></i> Facebook</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://www.instagram.com/namnamrute/?hl=es"><i class="fa fa-envelope-o" aria-hidden="true"></i> Instagram</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" ><i class="fa fa-envelope-o" aria-hidden="true"></i> Contacto: 641 324 423</a>
+        </h5>
+      </div>
+      <div class="col-xl-6 col-md-12 py-3">
+        <h4 class="text-center text-dark">Sobre mí</h4>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://github.com/ehm4"><i class="fa fa-github" aria-hidden="true"></i> Ernesto Hernández Mangas</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="mailto:ernesto.hernandez.fp@iescampanillas.com"><i class="fa fa-envelope-o" aria-hidden="true"></i> ernesto.hernandez.fp@iescampanillas.com</a>
+        </h5>
+      </div>
+      <div class="col-xl-3 col-md-12 py-3">
+        <h4 class="text-center text-dark">Sobre el instituto</h4>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://fp.iescampanillas.com/"><i class="fa fa-internet-explorer" aria-hidden="true"></i> Página Web</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://twitter.com/fpiescampa"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a>
+        </h5>
+        <h5 class="text-center text-dark">
+          <a class="text-reset text-decoration-none" href="https://github.com/IESCampanillas/indice-fp-ies-campanillas"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a>
+        </h5>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!------------------Fin Footer----------------------------------------->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
